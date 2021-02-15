@@ -5,7 +5,7 @@ module github.com/weaveworks/eksctl
 go 1.15
 
 require (
-	github.com/aws/aws-sdk-go v1.36.31
+	github.com/aws/aws-sdk-go v1.37.0 // indirect
 	github.com/benjamintf1/unmarshalledmatchers v0.0.0-20190408201839-bb1c1f34eaea
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/bxcodec/faker v2.0.1+incompatible
@@ -49,15 +49,15 @@ require (
 	github.com/weaveworks/goformation/v4 v4.10.2-0.20210115145130-4565586043b7
 	github.com/weaveworks/launcher v0.0.2-0.20200715141516-1ca323f1de15
 	github.com/whilp/git-urls v0.0.0-20191001220047-6db9661140c0
-	golang.org/x/tools v0.0.0-20210105210202-9ed45478a130
-	k8s.io/api v0.19.4
+	golang.org/x/tools v0.1.0
+	k8s.io/api v0.20.0
 	k8s.io/apiextensions-apiserver v0.19.4
-	k8s.io/apimachinery v0.19.4
-	k8s.io/cli-runtime v0.19.4
-	k8s.io/client-go v0.19.4
+	k8s.io/apimachinery v0.20.0
+	k8s.io/cli-runtime v0.20.0
+	k8s.io/client-go v0.20.0
 	k8s.io/cloud-provider v0.19.4
 	k8s.io/code-generator v0.19.4
-	k8s.io/kops v1.19.0-beta.2
+	k8s.io/kops v1.20.0-alpha.2 // indirect
 	k8s.io/kubelet v0.19.4
 	k8s.io/kubernetes v1.19.4
 	k8s.io/legacy-cloud-providers v0.19.4
